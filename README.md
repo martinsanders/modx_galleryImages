@@ -9,10 +9,10 @@ Add new TV with the following settings:
 ### General Info
 
 * Name: portfolioImages
-* Caption: Images
+* Caption: **Images**
 
 ### Input Options
-* input Type:	migx
+* input Type:	**migx**
 * Form Tabs:
 ```
 [
@@ -91,10 +91,10 @@ Add new TV with the following settings:
 	{"header": "Image", "width": "50", "sortable": "false", "dataIndex": "image1","renderer": "this.renderImage"}
 ]
 ```
-"Add Item" Replacement:	Add Image
+"Add Item" Replacement:	**Add Image**
 
 ### Template Access
-gelleryImages:	Check access
+gelleryImages:	**Check access**
 
 ##Example:
 
