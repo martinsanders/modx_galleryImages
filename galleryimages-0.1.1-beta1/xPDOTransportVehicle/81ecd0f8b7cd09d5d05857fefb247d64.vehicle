@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'galleryimages-0.1.1-beta1/xPDOTransportVehicle/81ecd0f8b7cd09d5d05857fefb247d64/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'migx-2.9.0-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'galleryimages',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"galleryimages-0.1.1-beta1\\/xPDOTransportVehicle\\/81ecd0f8b7cd09d5d05857fefb247d64.migx-2.9.0-pl.resolver","type":"php","name":"migx-2.9.0-pl"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"galleryimages-0.1.1-beta1\\/xPDOTransportVehicle\\/81ecd0f8b7cd09d5d05857fefb247d64.migx-2.9.0-pl.validator","type":"php","name":"migx-2.9.0-pl"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '4f741555ff1c927e671e6774f8d4ab4b',
+  'package' => '',
+  'signature' => '81ecd0f8b7cd09d5d05857fefb247d64',
+  'native_key' => '4f741555ff1c927e671e6774f8d4ab4b',
+);

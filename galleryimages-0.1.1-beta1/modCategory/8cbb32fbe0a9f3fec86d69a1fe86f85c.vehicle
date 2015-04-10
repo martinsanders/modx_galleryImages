@@ -1,0 +1,99 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'bb938a3aa1c6d85a03421703832e4c0e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":25,"source":1,"property_preprocess":0,"name":"imageRowTpl","description":"","editor_type":0,"category":20,"cache_type":0,"snippet":"<div class=\\"thumbnail bottom-xs-m15\\">\\n\\t<img src=\\"[[+image1]]\\" alt=\\"[[+title1]]\\">\\n    [[+title1:notempty=`<div class=\\"desc text-xs-center [[+style]]\\">\\n\\t\\t<h4>[[+title1]]<\\/h4>\\n\\t\\t[[+introtext1:notempty=`<p>[[+introtext1]]<\\/p>`]]\\n\\t<\\/div>`]]\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"thumbnail bottom-xs-m15\\">\\n\\t<img src=\\"[[+image1]]\\" alt=\\"[[+title1]]\\">\\n    [[+title1:notempty=`<div class=\\"desc text-xs-center [[+style]]\\">\\n\\t\\t<h4>[[+title1]]<\\/h4>\\n\\t\\t[[+introtext1:notempty=`<p>[[+introtext1]]<\\/p>`]]\\n\\t<\\/div>`]]\\n<\\/div>"}',
+        'guid' => '3ec7e37295c0ed6295dab060f62f9a65',
+        'native_key' => 25,
+        'signature' => '42327f0848fdfb1c34a37ce8dd4b618c',
+      ),
+      'eb772120b9fe904012fac5bb4d17d291' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":26,"source":1,"property_preprocess":0,"name":"carouselRowTpl","description":"","editor_type":0,"category":20,"cache_type":0,"snippet":"<div id=\\"carousel_id[[+cid]]\\" class=\\"carousel slide bottom-xs-m15\\" data-interval=\\"false\\">\\n<div class=\\"carousel-inner\\" role=\\"listbox\\">\\n   <div class=\\"item active\\">\\n      <img src=\\"[[+image1]]\\" alt=\\"[[+title1]]\\">\\n      [[+title1:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title1]]<\\/h4>\\n         <p>[[+introtext1]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image2]]\\" alt=\\"[[+title2]]\\">\\n      [[+title2:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title2]]<\\/h4>\\n         <p>[[+introtext2]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   [[+image3:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image3]]\\" alt=\\"[[+title3]]\\">\\n      [[+title3:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title3]]<\\/h4>\\n         <p>[[+introtext3]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image4:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image4]]\\" alt=\\"[[+title4]]\\">\\n      [[+title4:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title4]]<\\/h4>\\n         <p>[[+introtext4]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image5:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image5]]\\" alt=\\"[[+title5]]\\">\\n      [[+title5:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title5]]<\\/h4>\\n         <p>[[+introtext5]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image6:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image6]]\\" alt=\\"[[+title6]]\\">\\n      [[+title6:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title6]]<\\/h4>\\n         <p>[[+introtext6]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image7:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image7]]\\" alt=\\"[[+title7]]\\">\\n      [[+title7:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title7]]<\\/h4>\\n         <p>[[+introtext7]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image8:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image8]]\\" alt=\\"[[+title8]]\\">\\n      [[+title8:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title8]]<\\/h4>\\n         <p>[[+introtext8]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image9:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image9]]\\" alt=\\"[[+title9]]\\">\\n      [[+title9:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title9]]<\\/h4>\\n         <p>[[+introtext9]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image10:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image10]]\\" alt=\\"[[+title10]]\\">\\n      [[+title10:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title10]]<\\/h4>\\n         <p>[[+introtext10]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   <a class=\\"left carousel-control\\" href=\\"#carousel_id[[+cid]]\\" role=\\"button\\" data-slide=\\"prev\\">\\n   <span class=\\"icon-prev icon-HA_arrow_left_thin\\" aria-hidden=\\"true\\"><\\/span>\\n   <span class=\\"sr-only\\">Previous<\\/span>\\n   <\\/a>\\n   <a class=\\"right carousel-control\\" href=\\"#carousel_id[[+cid]]\\" role=\\"button\\" data-slide=\\"next\\">\\n   <span class=\\"icon-next icon-HA_arrow_right_thin\\" aria-hidden=\\"true\\"><\\/span>\\n   <span class=\\"sr-only\\">Next<\\/span>\\n   <\\/a>\\n<\\/div>\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div id=\\"carousel_id[[+cid]]\\" class=\\"carousel slide bottom-xs-m15\\" data-interval=\\"false\\">\\n<div class=\\"carousel-inner\\" role=\\"listbox\\">\\n   <div class=\\"item active\\">\\n      <img src=\\"[[+image1]]\\" alt=\\"[[+title1]]\\">\\n      [[+title1:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title1]]<\\/h4>\\n         <p>[[+introtext1]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image2]]\\" alt=\\"[[+title2]]\\">\\n      [[+title2:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title2]]<\\/h4>\\n         <p>[[+introtext2]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   [[+image3:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image3]]\\" alt=\\"[[+title3]]\\">\\n      [[+title3:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title3]]<\\/h4>\\n         <p>[[+introtext3]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image4:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image4]]\\" alt=\\"[[+title4]]\\">\\n      [[+title4:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title4]]<\\/h4>\\n         <p>[[+introtext4]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image5:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image5]]\\" alt=\\"[[+title5]]\\">\\n      [[+title5:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title5]]<\\/h4>\\n         <p>[[+introtext5]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image6:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image6]]\\" alt=\\"[[+title6]]\\">\\n      [[+title6:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title6]]<\\/h4>\\n         <p>[[+introtext6]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image7:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image7]]\\" alt=\\"[[+title7]]\\">\\n      [[+title7:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title7]]<\\/h4>\\n         <p>[[+introtext7]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image8:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image8]]\\" alt=\\"[[+title8]]\\">\\n      [[+title8:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title8]]<\\/h4>\\n         <p>[[+introtext8]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image9:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image9]]\\" alt=\\"[[+title9]]\\">\\n      [[+title9:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title9]]<\\/h4>\\n         <p>[[+introtext9]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   [[+image10:notempty=`\\n   <div class=\\"item\\">\\n      <img src=\\"[[+image10]]\\" alt=\\"[[+title10]]\\">\\n      [[+title10:notempty=`\\n      <div class=\\"carousel-caption text-xs-center [[+style]]\\">\\n         <h4>[[+title10]]<\\/h4>\\n         <p>[[+introtext10]]<\\/p>\\n      <\\/div>\\n      `]]\\n   <\\/div>\\n   `]]\\n   <a class=\\"left carousel-control\\" href=\\"#carousel_id[[+cid]]\\" role=\\"button\\" data-slide=\\"prev\\">\\n   <span class=\\"icon-prev icon-HA_arrow_left_thin\\" aria-hidden=\\"true\\"><\\/span>\\n   <span class=\\"sr-only\\">Previous<\\/span>\\n   <\\/a>\\n   <a class=\\"right carousel-control\\" href=\\"#carousel_id[[+cid]]\\" role=\\"button\\" data-slide=\\"next\\">\\n   <span class=\\"icon-next icon-HA_arrow_right_thin\\" aria-hidden=\\"true\\"><\\/span>\\n   <span class=\\"sr-only\\">Next<\\/span>\\n   <\\/a>\\n<\\/div>\\n<\\/div>"}',
+        'guid' => '5cc9275b1f8913535c180ec942a2a097',
+        'native_key' => 26,
+        'signature' => '023ee85ed454226eb2348a8f12d5c07b',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '361ac9ea0851b86fbfad8b74ad1f9c24' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":40,"source":1,"property_preprocess":0,"name":"galleryImages","description":"","editor_type":0,"category":19,"cache_type":0,"snippet":"$imageArray = json_decode($data, true);\\n$images = $key = $value = $cid = \\"\\";\\nforeach($imageArray as $images){\\n\\tforeach($images as $key => $value){\\n\\t\\t$modx->setPlaceholder(\'cid\', rand(1000, 9999));\\n\\t\\t$modx->setPlaceholder($key, $value);\\n\\t}\\n\\t$output .= $modx->parseChunk(($images[\'image2\'] != \'\' ? (isset($carouselRowTpl) ? $carouselRowTpl : \'carouselRowTpl\') : (isset($imageRowTpl) ? $imageRowTpl : \'imageRowTpl\')), $modx->setPlaceholders, \'[[+\', \']]\');\\n}\\nreturn($output);","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"$imageArray = json_decode($data, true);\\n$images = $key = $value = $cid = \\"\\";\\nforeach($imageArray as $images){\\n\\tforeach($images as $key => $value){\\n\\t\\t$modx->setPlaceholder(\'cid\', rand(1000, 9999));\\n\\t\\t$modx->setPlaceholder($key, $value);\\n\\t}\\n\\t$output .= $modx->parseChunk(($images[\'image2\'] != \'\' ? (isset($carouselRowTpl) ? $carouselRowTpl : \'carouselRowTpl\') : (isset($imageRowTpl) ? $imageRowTpl : \'imageRowTpl\')), $modx->setPlaceholders, \'[[+\', \']]\');\\n}\\nreturn($output);"}',
+        'guid' => 'db4cb64828b2b927e1c9f623b1898e23',
+        'native_key' => 40,
+        'signature' => '7d738d980910b886feb27d54602563a9',
+      ),
+    ),
+    'Templates' => 
+    array (
+      'cfc4b4d754232897b27f2a013d83ba13' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":6,"source":1,"property_preprocess":0,"templatename":"gelleryImages","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[getImageList?\\n\\t&tvname=`portfolioImages`\\n\\t&toJsonPlaceholder=`jsonoutput`\\n]]\\n[[galleryImages?\\n\\t&data=`[[+jsonoutput]]`\\n]]","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => 'a3a135f9ad9bb06b7f7d4724660d2d31',
+        'native_key' => 6,
+        'signature' => '8cd634444654c8cfe342a07dbe885283',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'galleryimages',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd642589aaf39a7179962c0801fc275bd',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '8cbb32fbe0a9f3fec86d69a1fe86f85c',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"galleryImages"}',
+);
