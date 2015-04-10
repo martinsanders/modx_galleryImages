@@ -1,6 +1,6 @@
 # galleryImages
 
-Create a mixed list of single and carousel images using Bootstrap 3 CSS/HTML Frameword, MIGX MODX CMS plugin.
+Create a mixed list of single and carousel images using Bootstrap 3 CSS/HTML Framework, MIGX MODX CMS plugin.
 
 ## Setup:
 
