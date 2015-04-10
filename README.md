@@ -7,12 +7,13 @@ Create a mixed list of single and carousel images using Bootstrap 3 CSS/HTML Fra
 Add new TV with the following settings:
 
 ### General Info
-Name: 		portfolioImages
-Caption: 	Images
+
+* Name: portfolioImages
+* Caption: Images
 
 ### Input Options
-input Type:	migx
-Form Tabs:
+* input Type:	migx
+* Form Tabs:
 ```
 [
 	{
@@ -82,7 +83,7 @@ Form Tabs:
 	}
 ] 
 ```
-Grid Columns:
+* Grid Columns:
 ```
 [
 	{"header": "Title", "width": "160", "sortable": "true", "dataIndex": "title1"},
